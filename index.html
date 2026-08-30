@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Фёдор Ларин — Python Backend Developer уровня Middle+ с более чем 4 годами коммерческого опыта.">
+  <meta name="theme-color" content="#176b51">
+  <meta property="og:title" content="Фёдор Ларин — Python Backend Developer">
+  <meta property="og:description" content="Асинхронные сервисы, интеграции и внутренние платформы на Python, FastAPI, PostgreSQL и Kafka.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="assets/fedor-larin.png">
+  <title>Фёдор Ларин — Python Backend Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">К содержанию</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="brand" href="./"><span class="brand-mark">FL</span><span>Фёдор Ларин</span></a>
+      <div class="nav-links">
+        <a class="nav-link" href="./" aria-current="page">Разработчик</a>
+        <a class="nav-link" href="tutor/">Преподаватель</a>
+        <button class="print-button" type="button" data-print>Сохранить PDF</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page" id="content">
+    <section class="hero" aria-labelledby="main-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Python · Backend · FinTech</p>
+        <h1 id="main-title">Фёдор Ларин <span class="role">Python Backend Developer · Middle+</span></h1>
+        <p class="lead">Более 4 лет создаю асинхронные сервисы, интеграции и внутренние платформы. Работал в командах Райффайзенбанка, Сбера и DSM Group.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://t.me/fl4r1n">Написать в Telegram</a>
+          <a class="button" href="mailto:l4r1n.fedor@yandex.ru">Email</a>
+          <a class="button" href="tel:+79257575590">+7 925 757-55-90</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/fedor-larin.png" alt="Фёдор Ларин" width="1124" height="1370">
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <h2>Опыт работы</h2>
+        <p class="section-intro">Проектирую backend-системы, которые выдерживают реальную нагрузку, остаются наблюдаемыми и понятными команде.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="job">
+          <header class="job-header">
+            <div><h3>Python Backend Developer</h3><p class="company">Raiffeisenbank</p></div>
+            <p class="period">Июнь 2025 — июнь 2026<br>1 год 1 месяц</p>
+          </header>
+          <p class="job-summary">Развивал внутреннюю платформу мониторинга и обработки алертов, объединявшую более 1000 источников. Создавал асинхронные сервисы на FastAPI и участвовал в поэтапном выделении функциональности из монолита.</p>
+          <ul class="achievements">
+            <li>Спроектировал сервис быстрого приёма алертов по HTTP и отделил входной контур от нормализации и дедупликации. Kafka сократила время ответа источникам ориентировочно на порядок.</li>
+            <li>Новая архитектура приняла нештатный всплеск примерно в 40 000 алертов за 10 минут без остановки системы; очередь была обработана в течение часа.</li>
+            <li>Перевёл четыре связанных сервиса на новую модель событий с поддержкой старого формата и канареечным релизом.</li>
+            <li>Внедрял метрики, структурированное логирование и диагностику; проводил code review и помогал младшим разработчикам.</li>
+          </ul>
+          <div class="stack" aria-label="Технологии">
+            <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">asyncio</span><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">Kafka</span><span class="tag">Kubernetes</span><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">OpenSearch</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <header class="job-header">
+            <div><h3>Python Backend Developer</h3><p class="company">Сбер</p></div>
+            <p class="period">Июнь 2023 — июнь 2025<br>2 года 1 месяц</p>
+          </header>
+          <p class="job-summary">Разрабатывал внутренние Python-сервисы, интеграции и автоматизацию администрирования Hadoop-кластеров. Работал с REST API, асинхронной обработкой и разделением монолита.</p>
+          <ul class="achievements">
+            <li>Создал более 10 асинхронных сценариев автоматизации, экономивших около 80 человеко-часов технических специалистов в неделю.</li>
+            <li>Реализовал проверки безопасности для более 300 Hadoop-кластеров и три REST-адаптера, использованных в 17 сценариях автоматизации.</li>
+            <li>Помог вынести около 70% нагрузки исходного приложения в отдельный компонент.</li>
+            <li>Оптимизировал Dockerfile и сократил сборку на DEV-стенде с 15 до 3 минут; переработал процесс code review.</li>
+          </ul>
+          <div class="stack" aria-label="Технологии">
+            <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Pydantic</span><span class="tag">SQLAlchemy</span><span class="tag">REST API</span><span class="tag">Docker</span><span class="tag">Hadoop</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <header class="job-header">
+            <div><h3>Python ETL / автоматизация</h3><p class="company">DSM Group</p></div>
+            <p class="period">Февраль 2022 — июнь 2023<br>1 год 5 месяцев</p>
+          </header>
+          <p class="job-summary">Разрабатывал решения для обработки, классификации и подготовки данных на Python, pandas и SQL, работал с ML-моделями и автоматической отчётностью.</p>
+          <ul class="achievements">
+            <li>Автоматизировал идентификацию адресов приблизительно в 80% случаев с помощью Python и scikit-learn.</li>
+            <li>Распараллелил обучение TF-IDF-модели на Dask и multiprocessing, ускорив его более чем в 10 раз.</li>
+            <li>Автоматизировал полный цикл формирования четырёх Excel-отчётов.</li>
+            <li>Получил повышение через три месяца после окончания испытательного срока.</li>
+          </ul>
+          <div class="stack" aria-label="Технологии">
+            <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">pandas</span><span class="tag">Dask</span><span class="tag">scikit-learn</span><span class="tag">Apache Superset</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <h2>Навыки</h2>
+        <p class="section-intro">Основной фокус — Python backend, событийные интеграции, базы данных и эксплуатационная зрелость сервисов.</p>
+      </div>
+      <div class="grid-2">
+        <article class="info-card">
+          <h3>Backend</h3>
+          <p>Python, FastAPI, asyncio, aiohttp, Pydantic, SQLAlchemy, Django, Flask, REST API.</p>
+        </article>
+        <article class="info-card">
+          <h3>Данные и инфраструктура</h3>
+          <p>PostgreSQL, Kafka, Redis, RabbitMQ, Docker, Kubernetes, Prometheus, Grafana, ELK/OpenSearch.</p>
+        </article>
+        <article class="info-card">
+          <h3>Качество</h3>
+          <p>Pytest, unit testing, code review, Git, Swagger, структурированное логирование.</p>
+        </article>
+        <article class="info-card">
+          <h3>Data & ML</h3>
+          <p>SQL, pandas, Dask, multiprocessing, scikit-learn, TF-IDF, Apache Superset.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <h2>Образование</h2>
+        <p class="section-intro">Московский государственный университет имени М. В. Ломоносова.</p>
+      </div>
+      <div class="timeline">
+        <article class="info-card">
+          <h3>Фундаментальная и прикладная химия</h3>
+          <p class="company">Факультет фундаментальной физико-химической инженерии</p>
+          <p>Неоконченное высшее, 2024. Русский — родной.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact-panel">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2>Открыт к сильным backend-задачам</h2>
+          <p>Москва · удалённо, гибрид или офис · готов к редким командировкам. Предпочтительный способ связи — Telegram.</p>
+        </div>
+        <ul class="contact-list">
+          <li><a href="https://t.me/fl4r1n">Telegram · @fl4r1n</a></li>
+          <li><a href="mailto:l4r1n.fedor@yandex.ru">l4r1n.fedor@yandex.ru</a></li>
+          <li><a href="tel:+79257575590">+7 925 757-55-90</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">© <span data-current-year>2026</span> Фёдор Ларин</footer>
+</body>
+</html>
